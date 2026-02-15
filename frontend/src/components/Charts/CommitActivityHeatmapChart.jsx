@@ -4,6 +4,7 @@ import { format, parseISO, getDay, getHours } from "date-fns";
 
 const CommitActivityHeatmapChart = ({ commits = [], repository }) => {
   // Process commit data for heatmap
+  // cmt 
   const processHeatmapData = () => {
     if (!commits.length) return { heatmapData: [], insights: {} };
 
